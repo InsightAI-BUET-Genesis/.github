@@ -1,8 +1,8 @@
 # InsightAI Technical Documentation
 
 **Authors:** 
-> Nazmus Sakib 
-> Saad Md Rafid Pial
+- Nazmus Sakib
+- Saad Md Rafid Pial
 
 InsightAI consists of three main modules:
 1. Study-Companion

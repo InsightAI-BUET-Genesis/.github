@@ -27,7 +27,7 @@ Organize study materials by any criteria. Create and delete collections, which a
 
 ### Collection-based Vector DB
 Create a vector database based on your collection, supporting files, URLs, and YouTube videos. The process involves:
-- **File Parsing**: Using LLamaParse and LLama-Index for robust architecture. Semantic chunking is done with Langchain’s semantic chunker, and embedding is done for vector DB storage.
+- **File Parsing**: Using Unstructured parsing library for robust parsing-architecture. Semantic chunking is done with Langchain’s semantic chunker, and embedding is done for vector DB storage.
 - **URL Parsing**: Content is retrieved using `beautifulsoup4` and cleaned with OpenAI’s GPT-4o-mini model.
 - **YouTube Video Parsing**: Subtitles are retrieved using `youtube-transcript-api` and processed similarly to a text file.
 

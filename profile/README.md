@@ -98,7 +98,7 @@ InsightAI uses a microservice-based architecture with the following components:
 - **Frontend**: Developed in SvelteKit.
 - **Backend Services**:
   1. **Database**: Spring backend handling interactions with Postgres database, hosted in Supabase.
-  2. **LLM Tasks**: FastAPI backend handling AI and RAG-related tasks. API documentation: [InsightAI Python Backend](https://insightai-python-backend.onrender.com/docs).
+  2. **LLM Tasks**: FastAPI backend handling AI and RAG-related tasks. API documentation: [InsightAI Python Backend](https://insightai-6hp4.onrender.com/docs).
   3. **Scraping**: Cron-job based service for scraping and updating vector points in Qdrant.
   4. **Vector DB and Data Augmentation**: Service for data cleaning and augmentation using the LLaVA model.
   5. **Auth Flow**: Handled by SvelteKit using Supabase Auth.
@@ -111,21 +111,21 @@ InsightAI uses a microservice-based architecture with the following components:
 ### Study Companion Module
 The Study Companion module consists of two main components:
 
-1. Resource Management
+1. **Resource Management**
 ![Study Companion - Resource Management](https://fgdanyiprenrzvmxnjxw.supabase.co/storage/v1/object/public/statics/stud_companion_1.png)
 
-2. Productivity (Note Generation, Quiz & Flashcards)
+2. **Productivity (Note Generation, Quiz & Flashcards)**
 ![Study Companion - Productivity](https://fgdanyiprenrzvmxnjxw.supabase.co/storage/v1/object/public/statics/stud_companion_2.png)
 
 ### Project Planner Module
 ![Project Planner](https://fgdanyiprenrzvmxnjxw.supabase.co/storage/v1/object/public/statics/project_planner.png)
 
-### Shop-Genie Module
-![Shop-Genie](https://fgdanyiprenrzvmxnjxw.supabase.co/storage/v1/object/public/statics/system_architecture_insightAI.png)
+### ShopGenie Module
+![ShopGenie](https://fgdanyiprenrzvmxnjxw.supabase.co/storage/v1/object/public/statics/genie.png)
 
 These diagrams provide a high-level overview of the system flow for each module in the InsightAI application. They illustrate the key components and interactions within each module, helping developers and stakeholders understand the overall architecture and data flow.
 
 ## Additional Resources
 - [Product Dataset](https://huggingface.co/datasets/Melikshah/products)
-- [InsightAI Python Backend API Documentation](https://insightai-python-backend.onrender.com/docs)
+- [InsightAI Python Backend API Documentation](https://insightai-6hp4.onrender.com/docs)
 

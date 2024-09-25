@@ -106,6 +106,25 @@ InsightAI uses a microservice-based architecture with the following components:
 ## System Architecture Diagram
 ![System Architecture](https://fgdanyiprenrzvmxnjxw.supabase.co/storage/v1/object/public/statics/system_architecture_insightAI.png)
 
+## Workflow Diagram
+
+### Study Companion Module
+The Study Companion module consists of two main components:
+
+1. Resource Management
+![Study Companion - Resource Management](https://fgdanyiprenrzvmxnjxw.supabase.co/storage/v1/object/public/statics/stud_companion_1.png)
+
+2. Productivity (Note Generation, Quiz & Flashcards)
+![Study Companion - Productivity](https://fgdanyiprenrzvmxnjxw.supabase.co/storage/v1/object/public/statics/stud_companion_2.png)
+
+### Project Planner Module
+![Project Planner](https://fgdanyiprenrzvmxnjxw.supabase.co/storage/v1/object/public/statics/project_planner.png)
+
+### Shop-Genie Module
+![Shop-Genie](https://fgdanyiprenrzvmxnjxw.supabase.co/storage/v1/object/public/statics/system_architecture_insightAI.png)
+
+These diagrams provide a high-level overview of the system flow for each module in the InsightAI application. They illustrate the key components and interactions within each module, helping developers and stakeholders understand the overall architecture and data flow.
+
 ## Additional Resources
 - [Product Dataset](https://huggingface.co/datasets/Melikshah/products)
 - [InsightAI Python Backend API Documentation](https://insightai-python-backend.onrender.com/docs)
